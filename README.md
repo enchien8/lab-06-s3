@@ -1,3 +1,10 @@
+## My S3 buckets
+
+- Public collection: [Browse the 100-book index](https://public-ethanchien.s3.amazonaws.com/index.html).
+- Private book: [Open the book with a temporary presigned URL]([PRESIGNED URL REMOVED - generate locally when needed]).
+
+Choose a public bucket when anyone should have ongoing access to a collection; use a presigned URL when a specific person needs temporary access to a private object.
+
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
