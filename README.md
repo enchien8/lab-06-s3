@@ -1,9 +1,9 @@
 ## My S3 buckets
 
 - Public collection: [Browse the 100-book index](https://public-ethanchien.s3.amazonaws.com/index.html).
-- Private book: [Open the book with a temporary presigned URL]([PRESIGNED URL REMOVED - generate locally when needed]).
+- Private book: `s3://secret-ethanchien/pg4300.txt` (run `./share_book.sh https://www.gutenberg.org/cache/epub/4300/pg4300.txt secret-ethanchien 604800` to generate a fresh temporary link).
 
-Choose a public bucket when anyone should have ongoing access to a collection; use a presigned URL when a specific person needs temporary access to a private object.
+Choose a public bucket when anyone should have ongoing access to a collection; use a presigned URL when a specific person needs temporary access to a private object. Generate presigned URLs when needed rather than committing them, because they contain temporary credentials.
 
 # Lab 06: Working with S3 Storage
 
